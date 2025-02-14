@@ -1,5 +1,5 @@
 # Sanskar-Mishra
-Comprehensive Model LeveragingML/DL for Online Transaction Fraud Detection 
+Comprehensive Model LeveragingML/DL for Online Transaction Fraud Detection:
 This project implements a comprehensive machine learning framework for detecting online transaction fraud using a combination of deep learning and traditional machine learning models. The dataset is preprocessed through feature scaling and reshaped for compatibility with Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) networks. Deep Learning Models: A CNN model is designed with convolutional layers, batch normalization, max pooling, and dropout to extract spatial patterns from transaction data. An LSTM model is also implemented to capture temporal dependencies in transaction sequences. Traditional ML Models: Decision Tree, Random Forest, and Naïve Bayes classifiers are trained and evaluated as benchmarks.
 Evaluation and Validation: The models are assessed using accuracy, classification reports, and AUC-ROC scores. A 4-fold and 10-fold cross-validation strategy is applied for robust evaluation.
 Performance Analysis: ROC curves are plotted to compare model effectiveness, highlighting the trade-offs between different classifiers.
